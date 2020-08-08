@@ -1,0 +1,13 @@
+body {
+	font-family: $roboto;
+} 
+
+a {
+	color: $ruddypink;
+
+	&:hover {
+	color: $erieblack;
+	text-decoration: none;
+	}
+
+}
