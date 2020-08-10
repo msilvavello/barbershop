@@ -9958,6 +9958,16 @@ a:hover {
   color: #6c6e70;
 }
 
+.btn-secondary {
+  background-color: #6c6e70;
+  color: white;
+}
+
+.btn-secondary :hover {
+  background-color: #e6e7e7;
+  color: white;
+}
+
 .author {
   border-top: 1px solid #999;
   border-bottom: 1px solid #999;
@@ -9996,8 +10006,7 @@ a:hover {
 }
 
 .page-item :hover {
-  background-color: #4CAF50;
-  /* Green */
+  background-color: #121619;
   color: white;
 }
 

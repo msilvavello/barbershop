@@ -9,11 +9,10 @@ border-radius: $borderpaginator
 
 .page-link {
 	color: $erieblack;
-
 }
 
 .page-item :hover {
-	background-color: #4CAF50; /* Green */
+	background-color: $erieblack;
 	color: white;
 
 	

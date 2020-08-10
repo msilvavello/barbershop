@@ -9,3 +9,13 @@
 	font-weight: lighter;
 	color: $nickel;
 }
+
+.btn-secondary {
+	background-color: $nickel;
+	color: white;
+}
+
+.btn-secondary :hover {
+	background-color: $platinum;
+	color: white;
+}
