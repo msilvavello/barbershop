@@ -9901,8 +9901,12 @@ a {
   color: #d76c69;
 }
 a:hover {
-  color: #121619;
+  color: #6c6e70;
   text-decoration: none;
+}
+
+.rounded-corners {
+  border-radius: 30px;
 }
 
 .navigation {
@@ -9927,7 +9931,7 @@ a:hover {
   background-size: cover;
 }
 .header h1 {
-  font-family: "Playfair Display", serif;
+  font-family: "Playfair Display";
   font-size: 70px;
   margin-bottom: 25%;
   font-weight: 900;
@@ -9943,8 +9947,15 @@ a:hover {
 }
 
 .post__content__date {
-  font-family: "Playfair Display", serif;
+  font-family: "Playfair Display";
   font-weight: 400;
+  color: #6c6e70;
+}
+
+.post__content__entry {
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  color: #6c6e70;
 }
 
 .author {
@@ -9956,12 +9967,38 @@ a:hover {
   border: none;
 }
 
-.author .card-titule {
-  font-family: "Playfair Display", serif;
+.author .card-title {
+  font-family: "Playfair Display";
+  font-style: italic;
+  font-size: 25px;
+}
+
+.author__card__img {
+  width: 150px;
+}
+
+.author .card-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  color: #6c6e70;
 }
 
 .paginator {
   background-color: #e6e7e7;
+}
+
+.paginator-border {
+  border-radius: 50px 50px 50px 50px;
+}
+
+.page-link {
+  color: #121619;
+}
+
+.page-item :hover {
+  background-color: #4CAF50;
+  /* Green */
+  color: white;
 }
 
 .footer {
@@ -9970,7 +10007,7 @@ a:hover {
 }
 
 .footer img {
-  width: 130px;
+  width: 120px;
 }
 
 /*# sourceMappingURL=main.css.map */

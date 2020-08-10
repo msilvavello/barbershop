@@ -1,3 +1,20 @@
 .paginator {
 	background-color: $platinum;
+} 
+
+.paginator-border {
+border-radius: $borderpaginator
+}
+
+
+.page-link {
+	color: $erieblack;
+
+}
+
+.page-item :hover {
+	background-color: #4CAF50; /* Green */
+	color: white;
+
+	
 }

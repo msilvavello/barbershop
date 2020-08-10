@@ -6,8 +6,15 @@ a {
 	color: $ruddypink;
 
 	&:hover {
-	color: $erieblack;
+	color: $nickel;
 	text-decoration: none;
 	}
 
 }
+
+
+.rounded-corners {
+border-radius: $rounded
+}
+
+
