@@ -33,7 +33,7 @@
 .page-item {
   &:first-child {
     .page-link {
-      margin-left: 0;
+      margin-left: 10;
       @include border-left-radius($border-radius);
     }
   }

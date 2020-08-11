@@ -10,12 +10,13 @@
 	color: $nickel;
 }
 
-.btn-secondary {
+.btn {
 	background-color: $nickel;
-	color: white;
+	color: $white;
 }
 
-.btn-secondary :hover {
-	background-color: $platinum;
-	color: white;
+.btn :hover{
+	background-color: $ruddypink;
+
 }
+

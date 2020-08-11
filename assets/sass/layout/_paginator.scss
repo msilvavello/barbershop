@@ -2,18 +2,23 @@
 	background-color: $platinum;
 } 
 
-.paginator-border {
-border-radius: $borderpaginator
+.page-item:first-child .page-link {
+  margin-left: 10;
+  border-top-left-radius: 20rem;
+  border-bottom-left-radius: 20rem;
 }
 
+.page-item:last-child .page-link {
+  margin-right: 10;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
 
-.page-link {
+.page-link{
 	color: $erieblack;
 }
 
-.page-item :hover {
+.page-item :hover{
 	background-color: $erieblack;
-	color: white;
-
-	
+	color: $white;
 }
